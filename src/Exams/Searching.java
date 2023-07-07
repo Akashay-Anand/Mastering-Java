@@ -99,13 +99,13 @@ public class Searching {
         else return 0;
     }
 // 7; Unbounded Binary Search
-    static int search_in_infinite_Arr(int[] arr , int item){
-        if(arr[0] == item) return 0;
-        int i = 1;
-        while(arr[i] < item)
-            i = i*2;
-        if(arr[i] == item) return i;
-        return Binary_search_with_index(arr, item, (i/2)+1, i-1);
-    }
+    // static int search_in_infinite_Arr(int[] arr , int item){
+    //     if(arr[0] == item) return 0;
+    //     int i = 1;
+    //     while(arr[i] < item)
+    //         i = i*2;
+    //     if(arr[i] == item) return i;
+    //     return Binary_search_with_index(arr, item, (i/2)+1, i-1);
+    // }
 
 }
